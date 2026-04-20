@@ -1,0 +1,7 @@
+venv311/
+.DS_Store
+__pycache__/
+*.keras
+*.pkl
+*.xlsx
+*.xls

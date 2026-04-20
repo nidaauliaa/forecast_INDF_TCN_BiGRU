@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forecast Saham</title>
+</head>
+<body>
+    <h1>Forecast Harga Saham INDF</h1>
+
+    <form action="/predict">
+        <button type="submit">Predict Besok</button>
+    </form>
+
+    {% if prediction %}
+        <h2>Hasil Forecast: Rp {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>
