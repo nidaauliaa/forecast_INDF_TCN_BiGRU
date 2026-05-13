@@ -3,5 +3,5 @@ venv311/
 __pycache__/
 *.keras
 *.pkl
-*.xlsx
+# *.xlsx
 *.xls
